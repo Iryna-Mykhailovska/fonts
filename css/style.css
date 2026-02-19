@@ -67,7 +67,9 @@ ul {
 .hidden {
     display: none;
 }
-
+.article {
+    margin-bottom: 70px;
+}
 .title {
     font-family: var(--title-font-family);
     margin-bottom: 40px;
