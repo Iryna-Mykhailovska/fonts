@@ -23,7 +23,7 @@ ul {
 .container {
     width: var(--container-width);
     margin: 0 auto;
-    padding: 0 15px;
+    /* padding: 0 15px; */
 }
 
 .flex-container {
@@ -67,9 +67,11 @@ ul {
 .hidden {
     display: none;
 }
+
 .article {
     margin-bottom: 70px;
 }
+
 .title {
     font-family: var(--title-font-family);
     margin-bottom: 40px;
@@ -88,13 +90,35 @@ ul {
     /* font-style: Light; */
     font-size: 20px;
     letter-spacing: 4%;
-   vertical-align: super;
+    vertical-align: super;
+    position: relative;
+    top: -10px;
 }
-.text{
+
+.text {
     font-family: var(--main-font-family);
     font-size: var(--main-font-size);
     font-weight: 400;
     line-height: 48px;
 }
 
+.text_pad {
+    padding-bottom: 40px;
+}
 
+.underline {
+    text-decoration: underline;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.mark {
+    background-color: var(--mark-color);
+    padding: 0 5px;
+}
