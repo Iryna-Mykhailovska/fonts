@@ -29,7 +29,9 @@ ul {
 .flex-container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 30px;
 }
 
 .header {
@@ -47,7 +49,9 @@ ul {
     line-height: 18px;
     letter-spacing: 4%;
 }
-
+.nav {
+    flex-grow: 1;
+}
 .menu {
     display: flex;
     gap: 10px;
@@ -63,7 +67,10 @@ ul {
     letter-spacing: 3%;
     color: var(--color);
 }
-
+.document::after {
+    content: '/';
+    margin-left: 10px;
+}
 .hidden {
     display: none;
 }
